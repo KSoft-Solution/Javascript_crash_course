@@ -1,32 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Control Flow</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        // if(condition){ true
-        //     block of codes
-        // }
+      // if(condition){ true
+      //     block of codes
+      // }
 
-        // if () return single value
+      // if () return single value
 
+      // let isMarried = false;
+      // if(isMarried){
+      //     console.log('you already married')
+      // }
 
-        let isMarried = false;
-        // if(isMarried){
-        //     console.log('you already married')
-        // }
+      // if (isMarried) console.log('you already married')
 
-        // if (isMarried) console.log('you already married')
+      // if(isMarried){
+      //     console.log('kab baap banega re tu')
+      // }else{
+      //     console.log('choti bachi ho kya..')
+      // }
 
-        if(isMarried){
-            console.log('kab baap banega re tu')
-        }else{
-            console.log('choti bachi ho kya..')
-        }
+      //nested IF/else
+      //   if (true) {
+      //     console.log("condition one is satishfied!");
+      //     if (true) {
+      //       console.log("conditionone nested is satishfied!");
+      //       if (false) console.log("condition one nested is satishfied!");
+      //       else console.log("condition one nested is not satishfied");
+      //     } else console.log("conditionone nested is not satashfied");
+      //   } else console.log("else main worked");
+
+      //else if
+      let age = Number(prompt("enter your age", 18));
+      console.log(age);
+      // if (age <= 5) {
+      //   console.log("choto pilata ra tu");
+      // } else if (age > 5 && 10 >= age) {
+      //   console.log("ebe tike danta uthila");
+      // } else if (age > 10 && 18 <= age) {
+      //   console.log("masti tike abe hauchi toro, chapri ta re");
+      // } else if (age > 18 && 25 <= age) {
+      //   console.log("andira pila tare tu kebe re baha habu?");
+      // } else if (age > 25 && 40 >= age) {
+      //   console.log("kemiti laguchi ebe marriage hela pare.");
+      // } else {
+      //   console.log("sarila bhai nataka, budha heigalu kebe maru tu?");
+      // }
+
+      //ternary operator
+      let ternary =
+        age <= 5
+          ? "choto pilata ra tu"
+          : age > 5 && 10 >= age
+          ? "ebe tike danta uthila"
+          : age > 10 && 18 >= age
+          ? "masti tike abe hauchi toro, chapri ta re"
+          : "sarila bhai nataka, budha heigalu kebe maru tu?";
+
+      console.log(ternary);
     </script>
-</body>
+  </body>
 </html>
