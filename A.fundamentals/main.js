@@ -22,9 +22,9 @@
 // var === scope(global)
 // var (if inside function === local/functional else === global)
 // let/const (if inside function === local/functional else === block)
-debugger;
-function names2() {
-  let names = "ashok";
-  console.log(names);
-}
-names2();
+// debugger;
+// function names2() {
+//   let names = "ashok";
+//   console.log(names);
+// }
+// names2();
