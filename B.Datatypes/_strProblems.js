@@ -14,3 +14,4 @@ const getTheUnicodeValues = (str) => {
 };
 
 elm.textContent = JSON.parse(JSON.stringify(getTheUnicodeValues(str)));
+
