@@ -39,7 +39,23 @@ let num3 = 20.40;
 // heading.textContent = Number.parseFloat(num3)
 // heading.textContent = Number.parseInt(num3)
 // heading.textContent = parseFloat(num3)
-heading.textContent = parseInt(num3)
+// heading.textContent = parseInt(num3)
+
+// heading.textContent = Number.isInteger()//false
+// heading.textContent = Number.isInteger(1)//true
+// heading.textContent = Number.isInteger(-1)//true
+// heading.textContent = Number.isInteger(-1.9)//false
+// heading.textContent = Number.isInteger('1')//false
+
+// heading.textContent = Number.isFinite(1)
+// heading.textContent = Number.isFinite(1/0)//false
+// heading.textContent = Number.isFinite(Infinity)//false
+// heading.textContent = Number.isFinite(-Infinity)//false
+// heading.textContent = Number.isFinite(2/1)//false
+
+heading.textContent = 1.2.toFixed(3)
+
+
 
 
 
