@@ -3,7 +3,18 @@ const heading = document.getElementById("heading_1");
 let myname = "kanha sahu",
   age = 28,
   job = "software engineering";
-
+let a = 1,
+  b = "b",
+  c = "1";
+let str = "ashok sahu ";
+let str2 = "kanha sahu";
+let str3 = "ashok";
+let str4 = "ksah";
+let str5 = "ASHOK SAHU";
+let str6 = "ashok sahu";
+let num_str = "100.5";
+let num_str1 = "100.5xyz";
+let str_num = 100.5;
 // let name = 'ashok sahu'
 // let age = 28;
 // console.log({ myname, age ,job});
@@ -26,10 +37,6 @@ console.log(`i am ${myname} and currently working on ${job}`); //template litera
 // let a = "a";
 // let b = "b";
 // let c = a + b; //string co ncatination
-
-let a = 1,
-  b = "b",
-  c = "1";
 
 // heading.textContent = typeof c//string
 // heading.textContent = typeof Number(c)//number
@@ -76,8 +83,6 @@ let a = 1,
 // let name1 = function(){} ,name2 = 'ashok';
 // heading.textContent = name1 ?? name2
 
-let str = "ashok sahu ";
-let str2 = "kanha sahu";
 // heading.textContent = str.at(2)//depricated
 // heading.textContent = str.charAt(2)
 // heading.textContent = str.concat(str2)
@@ -112,9 +117,6 @@ let str2 = "kanha sahu";
 // heading.textContent = typeof str.match(new RegExp('a'))
 // heading.textContent = typeof str.matchAll(new RegExp('a'))
 
-let str3 = 'ashok' 
-let str4 = 'ksah'
-
 // heading.textContent = str.localeCompare(str3)//1
 // heading.textContent = str.localeCompare(str4)//-1
 
@@ -125,9 +127,6 @@ let str4 = 'ksah'
 // heading.textContent = str.replace('ashok','kanha')
 // heading.textContent = str.replace('askok','kanha')
 
-let str5 = 'ASHOK SAHU'
-let str6 = 'ashok sahu'
-
 // heading.textContent = str5.toLowerCase();
 // heading.textContent = str5.toUpperCase();
 
@@ -137,7 +136,7 @@ let str6 = 'ashok sahu'
 // heading.textContent = str6.substring(0,5);
 // heading.textContent = str6.substring(6,11);
 
-// heading.textContent = str6.split()
+// heading.textContent = str6.split().
 // heading.textContent = typeof str6.split()
 // heading.textContent = str6.split('')
 // heading.textContent = str6.split(' ')
@@ -164,9 +163,6 @@ let str6 = 'ashok sahu'
 // heading.textContent = 'ashok sahu       '.length
 // heading.textContent = 'ashok sahu       '.trimEnd().length
 
-let num_str = '100.5'
-let num_str1 = '100.5xyz'
-let str_num = 100.5
 // heading.textContent = typeof num_str
 // heading.textContent = typeof str_num
 // heading.textContent = typeof num_str1
@@ -175,8 +171,19 @@ let str_num = 100.5
 // heading.textContent = str_num.toString()
 // heading.textContent = typeof str_num.toString()
 
-heading.textContent = _.toString(str_num)
+let _variable = "string";
+// "abc".padStart(10); // "       abc"
+// "abc".padStart(10, "foo"); // "foofoofabc"
+// "abc".padStart(6, "123465"); // "123abc"
+// "abc".padStart(8, "0"); // "00000abc"
+// "abc".padStart(1); // "abc"
 
+// heading.textContent = _variable.padStart(10,'*')
+// _variable.padEnd(10,'*')
+// heading.textContent = _variable
 
-
-
+// heading.textContent = _variable.slice(1)
+// heading.textContent = _variable.slice(2)
+// heading.textContent = _variable.slice(2,4)
+_variable.slice(2, 4);
+heading.textContent = _variable;
