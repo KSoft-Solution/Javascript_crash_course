@@ -59,7 +59,7 @@ const heading = document.getElementById("heading");
 // console.log(typeof obj)
 // console.log(typeof obj1)
 
-let arr = [];
+// let arr = [];
 // let arr1 = {};
 // console.log(Array.isArray(arr))
 // console.log(_.isArray(arr))
@@ -103,7 +103,7 @@ let arr = [];
 // console.log(arr2.length)
 
 
-let arr3 = ['mankada','kukura','ghusuri','damo','gai','panda'];
+// let arr3 = ['mankada','kukura','ghusuri','damo','gai','panda'];
 // console.log(arr3[0])
 // console.log(arr3[1])
 // console.log(arr3[2])
@@ -125,6 +125,18 @@ let arr3 = ['mankada','kukura','ghusuri','damo','gai','panda'];
 
 // console.log(arr3.at(1))
 // console.log(arr3.at(7))//undefined
+
+
+let arr = [1,2,3,4,5,6,7,8]
+// console.log(arr.includes(1))
+// console.log(arr.includes(2))
+// console.log(arr.includes(00000002))
+// console.log(arr.includes('x'))
+// console.log(arr.includes(+'0'))
+// console.log(arr.includes(+'1'))
+
+console.log(arr)
+// console.log(arr.fill(8))
 
 
 
