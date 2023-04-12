@@ -120,16 +120,16 @@ const heading = document.getElementById("heading");
 
 // console.log(arr3.includes())//false
 // console.log(arr3.includes('kukura'))//true
-// console.log(arr3.includes('mankada'))//true
 // console.log(arr3.includes('jhipiti'))//false
+// console.log(arr3.includes('mankada'))//true
 
 // console.log(arr3.at(1))
 // console.log(arr3.at(7))//undefined
 
 
 let arr = [1,2,3,4,5,6,7,8]
-// console.log(arr.includes(1))
 // console.log(arr.includes(2))
+// console.log(arr.includes(1))
 // console.log(arr.includes(00000002))
 // console.log(arr.includes('x'))
 // console.log(arr.includes(+'0'))

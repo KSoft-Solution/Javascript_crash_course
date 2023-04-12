@@ -5,7 +5,6 @@ const heading = document.querySelector(".heading");
 // heading.textContent = Math.E//2.718281828459045
 // heading.textContent = Math.LN10//2.302585092994046
 // heading.textContent = Math.LN2//0.6931471805599453
-// heading.textContent = Math.LN2//0.6931471805599453
 // heading.textContent = Math.LOG10E//0.4342944819032518
 // heading.textContent = Math.LOG2E//1.4426950408889634
 // heading.textContent = Math.PI//3.141592653589793
