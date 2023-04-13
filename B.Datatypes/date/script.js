@@ -18,6 +18,7 @@ heading.textContent = new Date().getDay()//2 - tue
 heading.textContent = new Date().getTimezoneOffset()//20 - april
 // heading.textContent = new Date().getUTCDate()//20 - april
 // heading.textContent = new Date().getUTCDay()//20 - april
+
 // heading.textContent = new Date().toLocaleDateString()//20 - april
 // heading.textContent = new Date().toTimeString()//20 - april
 // heading.textContent = new Date().toLocaleString()//20 - april

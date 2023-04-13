@@ -50,8 +50,59 @@
 //   }, 1000);
 // }
 
-for(let i=1;i<=5;i++){
-    for(let j=1;j<=5;j++){
-        console.log({i,j})
-    }
-}
+// for (let i = 1; i <= 5; i++) {
+//   for (let j = 1; j <= 5; j++) {
+//     console.log({ i, j });
+//   }
+// }
+
+/** while loop */
+// let arr1 = []
+// let i = 0;
+// while (i < 5) {
+//   console.log(i);
+//   i += 1;
+//   if(i===3){
+//     // break;
+//     continue;
+//   }
+//   arr1.push(i)
+// }
+// console.log(arr1)
+
+// let i = 1,
+//   j = 1;
+
+//  while(i<=5){
+//     i+=1
+//     console.log({i})
+//     while(j<5){
+//         j+=1
+//         console.log({j})
+//     }
+//     console.log({i,j})
+//  }
+
+// let n = 5; // row or column count
+// // defining an empty string
+// let string = "";
+
+// for(let i = 0; i < n; i++) { // external loop
+//   for(let j = 0; j < n; j++) { // internal loop
+//     string += "*";
+//   }
+//   // newline after each row
+//   string += "\n";
+// }
+// // printing the string
+// console.log(string);
+
+// program to display numbers
+let i = 1;
+const n = 5;
+
+// do...while loop from 1 to 5
+do {
+  console.log(i);
+  i++;
+} while (i <= n);
