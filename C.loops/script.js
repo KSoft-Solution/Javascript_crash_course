@@ -20,12 +20,14 @@
 // }
 
 // ++
-// let arr = [];
-// console.log(arr)
-// // for(let x = 1; x<=10; x++){
-// //     arr.push(x)
-// // }
-// console.log(arr)
+let arr = [];
+console.log(arr)
+for(let x = 1; x<=10; x++){
+  if(x==5) break;
+  // if (x<5) continue;
+    arr.push(x)
+}
+console.log(arr)
 
 // for(let x = 1; x<=10; x++){
 //     // if(x==5) break;
