@@ -82,15 +82,71 @@
 // abc("ashok sahu", 28);
 
 // default parameter
-function abc(name, age=27, job='soft') {
-  //   console.log(name);
-  //   console.log(age);
-  //   console.log(job);
-  //   console.log(company);
+// function abc(name, age=27, job='soft') {
+//   //   console.log(name);
+//   //   console.log(age);
+//   //   console.log(job);
+//   //   console.log(company);
 
-  console.log({ name, age, job });
+//   console.log({ name, age, job });
+// }
+
+// abc("ashok sahu", 28, "software engineer", "TCS");
+// abc("ashok sahu", 28);
+// abc("ashok sahu");
+
+// console.log('hello world')
+
+// let alexa = "hn ka re kan hela!";
+// let alexa = "hn ka re kan hela!";
+// console.log(alexa);
+// function getUser() {
+//   console.log(alexa);
+//   console.log(this)
+//   // console.log('hello world')
+// }
+
+// getUser();
+
+// function restParamsPre() {
+//   // console.log({ p1, p2, p3, p4, p5 }); //total arguments
+//   // console.log(arguments.length);
+
+//   // for (let i = 0; i <= arguments.length; i++) {
+//   //   console.log(arguments[i]);
+//   // }
+//   let arr = [];
+
+//   //? new loop for object and array { for..of }
+//   for (values of arguments) {
+//     // console.log(values);
+//     arr.push(values)
+//   }
+
+//   console.log(arr)
+// }
+// restParamsPre("ashok sahu", 28, "software developer", "TCS", false,'x','y','z');
+
+function restParams(p,p1,p2,...rest) {
+  // console.log({ p1, rest }); //total arguments
+  // console.log({ rest, arguments }); //total arguments
+  // console.log(arguments.length);
+
+  // console.log(typeof rest);
+  // console.log(typeof arguments);
+  // console.log(Array.isArray(rest));
+  // console.log(Array.isArray(arguments));
+
+  // console.log(rest.length); //all of the array method is work in rest
+  // console.log(arguments.length); //all of the array method is work in rest
+
+  // for (let i = 0; i <= arguments.length; i++) {
+  //   console.log(arguments[i]);
+  // }
+
+  //? new loop for object and array { for..of }
+  for (values of rest) {
+    console.log(values);
+  }
 }
-
-abc("ashok sahu", 28, "software engineer", "TCS");
-abc("ashok sahu", 28);
-abc("ashok sahu");
+restParams("ashok sahu", 28, "software developer", "TCS", false);
