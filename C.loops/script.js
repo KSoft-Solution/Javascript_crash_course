@@ -20,14 +20,14 @@
 // }
 
 // ++
-let arr = [];
-console.log(arr)
-for(let x = 1; x<=10; x++){
-  if(x==5) break;
-  // if (x<5) continue;
-    arr.push(x)
-}
-console.log(arr)
+// let arr = [];
+// console.log(arr)
+// for(let x = 1; x<=10; x++){
+//   if(x==5) break;
+//   // if (x<5) continue;
+//     arr.push(x)
+// }
+// console.log(arr)
 
 // for(let x = 1; x<=10; x++){
 //     // if(x==5) break;
@@ -85,26 +85,26 @@ console.log(arr)
 //     console.log({i,j})
 //  }
 
-// let n = 5; // row or column count
-// // defining an empty string
-// let string = "";
+let n = 5; // row or column count
+// defining an empty string
+let string = "";
 
-// for(let i = 0; i < n; i++) { // external loop
-//   for(let j = 0; j < n; j++) { // internal loop
-//     string += "*";
-//   }
-//   // newline after each row
-//   string += "\n";
-// }
-// // printing the string
-// console.log(string);
+for(let i = 0; i < n; i++) { // external loop
+  for(let j = 0; j < n; j++) { // internal loop
+    string += "*";
+  }
+  // newline after each row
+  string += "\n";
+}
+// printing the string
+console.log(string);
 
 // program to display numbers
-let i = 1;
-const n = 5;
+// let i = 1;
+// const n = 5;
 
 // do...while loop from 1 to 5
-do {
-  console.log(i);
-  i++;
-} while (i <= n);
+// do {
+//   console.log(i);
+//   i++;
+// } while (i <= n);

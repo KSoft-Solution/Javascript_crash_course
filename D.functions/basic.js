@@ -1,18 +1,18 @@
 // const item = document.getElementById("root");
-// // item.textContent = 'hello world'
-// // console.log({ item });
+item.textContent = 'hello world'
+console.log({ item });
 
-// //declaration of a function
-// // names()
-// // names()
-// // function names(){
-// //     console.log('this is function1')
-// // }
-// // function names(){
-// //     console.log('this is function2')
-// // }
+// declaration of a function
+names()
+names()
+function names(){
+    console.log('this is function1')
+}
+function names(){
+    console.log('this is function2')
+}
 
-// //calling a function
+//calling a function
 // var fun1 = function () {
 //   console.log("calling fn1/");
 // };
