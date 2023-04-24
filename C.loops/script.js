@@ -84,20 +84,20 @@
 //     }
 //     console.log({i,j})
 //  }
+// nested loop
+// let n = 5; // row or column count
+// // defining an empty string
+// let string = "";
 
-let n = 5; // row or column count
-// defining an empty string
-let string = "";
-
-for(let i = 0; i < n; i++) { // external loop
-  for(let j = 0; j < n; j++) { // internal loop
-    string += "*";
-  }
-  // newline after each row
-  string += "\n";
-}
-// printing the string
-console.log(string);
+// for(let i = 0; i < n; i++) { // external loop
+//   for(let j = 0; j < n; j++) { // internal loop
+//     string += "*";
+//   }
+//   // newline after each row
+//   string += "\n";
+// }
+// // printing the string
+// console.log(string);
 
 // program to display numbers
 // let i = 1;
@@ -108,3 +108,7 @@ console.log(string);
 //   console.log(i);
 //   i++;
 // } while (i <= n);
+
+
+
+// console.log()
