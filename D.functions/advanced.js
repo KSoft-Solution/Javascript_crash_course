@@ -69,3 +69,26 @@ const [n1, n2, n3, n4] = arr; //array destructuring
 const [a, ...b] = arr; //spread operator
 console.log({ n1, n2, n3, n4 });
 console.log({ a, b });
+
+// callback function
+// const arg = (x) => {
+//   return x + 3;
+// };
+
+// const arrow = (fn) => {
+//   return fn*4
+// };
+
+// console.log(arrow(arg()));
+// console.log(arrow(2));
+
+//curry function
+function fn(a) {
+  return function (b) {
+    return function (c) {
+      return a * b * c;
+    };
+  };
+}
+
+console.log(fn(10)(2)(3));

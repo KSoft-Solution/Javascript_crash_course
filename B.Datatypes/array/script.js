@@ -102,7 +102,6 @@ const heading = document.getElementById("heading");
 // console.log(arr2)
 // console.log(arr2.length)
 
-
 // let arr3 = ['mankada','kukura','ghusuri','damo','gai','panda'];
 // console.log(arr3[0])
 // console.log(arr3[1])
@@ -115,6 +114,7 @@ const heading = document.getElementById("heading");
 // console.log(arr3[-2])
 // console.log(arr3[-3])
 // console.log(arr3[-4])
+
 // console.log(arr3[-5])
 // console.log(arr3[-6])
 
@@ -126,8 +126,7 @@ const heading = document.getElementById("heading");
 // console.log(arr3.at(1))
 // console.log(arr3.at(7))//undefined
 
-
-let arr = [1,2,3,4,5,6,7,8]
+let arr = [1, 2, 3, 4, 5, 6, 7, 8];
 // console.log(arr.includes(2))
 // console.log(arr.includes(1))
 // console.log(arr.includes(00000002))
@@ -135,33 +134,118 @@ let arr = [1,2,3,4,5,6,7,8]
 // console.log(arr.includes(+'0'))
 // console.log(arr.includes(+'1'))
 
-console.log(arr)
+// console.log(arr)
 // console.log(arr.fill(8))
 
+const arr8 = [6, 3, 5, 9, 1, 2];
+// console.log(arr8)
 
+// console.log(arr8.sort())
+// console.log(arr8.sort(function(a,b){
+//     return b-a
+// }))
+// console.log(arr8.sort(function(a,b){
+//     return a-b
+// }))
 
+let arr2 = [
+  {
+    id: 1,
+    name: "ashok",
+    age: 28,
+  },
+  {
+    id: 2,
+    name: "kanha",
+    age: 29,
+  },
+  {
+    id: 3,
+    name: "hrushikesh",
+    age: 30,
+  },
+];
 
+// console.log({ arr2 });
 
+// console.log(arr2.map((value, index, arr) => arr));
+// console.log(
+//   arr2.map(function (value, index, arr) {
+//     return value.age;
+//   })
+// );
 
+// function callback(value, index, arr) {
+//   return value.age;
+// }
+// console.log(arr2.map(callback));
 
+let items = [
+  {
+    img: "no image",
+    Totalrating: 2.7,
+    ratings: 11,
+    reviews: 3,
+    price: 27000,
+    specifications: {
+      panel_type: "IPS Panel",
+      Screen_resolution: "quad HD",
+      brightness: 300,
+      response_time: "4ms",
+      refresh_rate: "75hz",
+      warrenty: "3 years",
+    },
+  },
+  {
+    img: "no image",
+    Totalrating: 4,
+    ratings: 11,
+    reviews: 3,
+    price: 27500,
+    specifications: {
+      panel_type: "IPS Panel",
+      Screen_resolution: "quad HD",
+      brightness: 300,
+      response_time: "4ms",
+      refresh_rate: "75hz",
+      warrenty: "3 years",
+    },
+  },
+  {
+    img: "no image",
+    Totalrating: 4.1,
+    ratings: 11,
+    reviews: 3,
+    price: 28000,
+    specifications: {
+      panel_type: "IPS Panel",
+      Screen_resolution: "quad HD",
+      brightness: 300,
+      response_time: "4ms",
+      refresh_rate: "75hz",
+      warrenty: "3 years",
+    },
+  },
+];
 
+console.log({ items });
+// console.log(items.filter((elm)=>{
+//     return elm.Totalrating < 3
+// }))
+console.log(
+  items.filter((elm) => {
+    return elm.price > 27000;
+  })
+);
 
+console.log(
+  _.filter(items, (elm) => {
+    return elm.price > 27000;
+  })
+);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(
+  _.filter(items, (elm) => {
+    return elm.Totalrating < 3;
+  })
+);
